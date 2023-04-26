@@ -11,6 +11,8 @@
 		206F2AB229F973570093935E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F2AB129F973570093935E /* ContentView.swift */; };
 		206F2AB429F973580093935E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206F2AB329F973580093935E /* Assets.xcassets */; };
 		206F2AB729F973580093935E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206F2AB629F973580093935E /* Preview Assets.xcassets */; };
+		206F2ABF29F9746B0093935E /* SwiftRUI in Frameworks */ = {isa = PBXBuildFile; productRef = 206F2ABE29F9746B0093935E /* SwiftRUI */; };
+		206F2AC229F975C70093935E /* PlaySaveDownloadBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		206F2AB129F973570093935E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		206F2AB329F973580093935E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		206F2AB629F973580093935E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySaveDownloadBar.swift; sourceTree = "<group>"; };
+		206F2AC329F97D730093935E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206F2ABF29F9746B0093935E /* SwiftRUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +56,8 @@
 		206F2AAE29F973570093935E /* VoiceGuide */ = {
 			isa = PBXGroup;
 			children = (
+				206F2AC329F97D730093935E /* Info.plist */,
+				206F2AC029F975A70093935E /* Components */,
 				206F2AAF29F973570093935E /* VoiceGuideApp.swift */,
 				206F2AB129F973570093935E /* ContentView.swift */,
 				206F2AB329F973580093935E /* Assets.xcassets */,
@@ -65,6 +72,14 @@
 				206F2AB629F973580093935E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		206F2AC029F975A70093935E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +98,9 @@
 			dependencies = (
 			);
 			name = VoiceGuide;
+			packageProductDependencies = (
+				206F2ABE29F9746B0093935E /* SwiftRUI */,
+			);
 			productName = VoiceGuide;
 			productReference = 206F2AAC29F973570093935E /* VoiceGuide.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +129,9 @@
 				Base,
 			);
 			mainGroup = 206F2AA329F973570093935E;
+			packageReferences = (
+				206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI" */,
+			);
 			productRefGroup = 206F2AAD29F973570093935E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				206F2AB229F973570093935E /* ContentView.swift in Sources */,
+				206F2AC229F975C70093935E /* PlaySaveDownloadBar.swift in Sources */,
 				206F2AB029F973570093935E /* VoiceGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +292,13 @@
 				DEVELOPMENT_TEAM = RW9GMW82XW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceGuide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +323,13 @@
 				DEVELOPMENT_TEAM = RW9GMW82XW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoiceGuide/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sweekwang/SwiftRUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		206F2ABE29F9746B0093935E /* SwiftRUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI" */;
+			productName = SwiftRUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 206F2AA429F973570093935E /* Project object */;
 }
