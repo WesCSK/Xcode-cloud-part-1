@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		201824C02A6557B800D06F10 /* VoiceGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201824BF2A6557B800D06F10 /* VoiceGuideTests.swift */; };
 		206F2AB029F973570093935E /* VoiceGuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F2AAF29F973570093935E /* VoiceGuideApp.swift */; };
 		206F2AB229F973570093935E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F2AB129F973570093935E /* ContentView.swift */; };
 		206F2AB429F973580093935E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206F2AB329F973580093935E /* Assets.xcassets */; };
@@ -15,7 +16,19 @@
 		206F2AC229F975C70093935E /* PlaySaveDownloadBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		201824C12A6557B800D06F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 206F2AA429F973570093935E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206F2AAB29F973570093935E;
+			remoteInfo = VoiceGuide;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		201824BD2A6557B800D06F10 /* VoiceGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201824BF2A6557B800D06F10 /* VoiceGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceGuideTests.swift; sourceTree = "<group>"; };
 		206F2AAC29F973570093935E /* VoiceGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206F2AAF29F973570093935E /* VoiceGuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceGuideApp.swift; sourceTree = "<group>"; };
 		206F2AB129F973570093935E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +39,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		201824BA2A6557B800D06F10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		206F2AA929F973570093935E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +57,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201824BE2A6557B800D06F10 /* VoiceGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				201824BF2A6557B800D06F10 /* VoiceGuideTests.swift */,
+			);
+			path = VoiceGuideTests;
+			sourceTree = "<group>";
+		};
 		206F2AA329F973570093935E = {
 			isa = PBXGroup;
 			children = (
 				206F2AAE29F973570093935E /* VoiceGuide */,
+				201824BE2A6557B800D06F10 /* VoiceGuideTests */,
 				206F2AAD29F973570093935E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				206F2AAC29F973570093935E /* VoiceGuide.app */,
+				201824BD2A6557B800D06F10 /* VoiceGuideTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +115,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		201824BC2A6557B800D06F10 /* VoiceGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201824C52A6557B800D06F10 /* Build configuration list for PBXNativeTarget "VoiceGuideTests" */;
+			buildPhases = (
+				201824B92A6557B800D06F10 /* Sources */,
+				201824BA2A6557B800D06F10 /* Frameworks */,
+				201824BB2A6557B800D06F10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201824C22A6557B800D06F10 /* PBXTargetDependency */,
+			);
+			name = VoiceGuideTests;
+			productName = VoiceGuideTests;
+			productReference = 201824BD2A6557B800D06F10 /* VoiceGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		206F2AAB29F973570093935E /* VoiceGuide */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206F2ABA29F973580093935E /* Build configuration list for PBXNativeTarget "VoiceGuide" */;
@@ -115,6 +163,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					201824BC2A6557B800D06F10 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 206F2AAB29F973570093935E;
+					};
 					206F2AAB29F973570093935E = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -137,11 +189,19 @@
 			projectRoot = "";
 			targets = (
 				206F2AAB29F973570093935E /* VoiceGuide */,
+				201824BC2A6557B800D06F10 /* VoiceGuideTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		201824BB2A6557B800D06F10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		206F2AAA29F973570093935E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,6 +214,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		201824B92A6557B800D06F10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201824C02A6557B800D06F10 /* VoiceGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		206F2AA829F973570093935E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,7 +234,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		201824C22A6557B800D06F10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 206F2AAB29F973570093935E /* VoiceGuide */;
+			targetProxy = 201824C12A6557B800D06F10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		201824C32A6557B800D06F10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW9GMW82XW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweekwang.VoiceGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceGuide";
+			};
+			name = Debug;
+		};
+		201824C42A6557B800D06F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RW9GMW82XW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sweekwang.VoiceGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceGuide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoiceGuide";
+			};
+			name = Release;
+		};
 		206F2AB829F973580093935E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -346,6 +458,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		201824C52A6557B800D06F10 /* Build configuration list for PBXNativeTarget "VoiceGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201824C32A6557B800D06F10 /* Debug */,
+				201824C42A6557B800D06F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		206F2AA729F973570093935E /* Build configuration list for PBXProject "VoiceGuide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
