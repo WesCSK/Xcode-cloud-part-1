@@ -6,6 +6,7 @@ target 'VoiceGuide' do
   use_frameworks!
 
   # Pods for VoiceGuide
+  pod 'FirebaseAuth'
 
   target 'VoiceGuideTests' do
     inherit! :search_paths

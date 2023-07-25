@@ -1,6 +1,0 @@
-framework module Pods_VoiceGuide {
-  umbrella header "Pods-VoiceGuide-umbrella.h"
-
-  export *
-  module * { export * }
-}

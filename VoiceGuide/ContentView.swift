@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftRUI
 import AVFoundation
+import FirebaseAuth
 
 struct ContentView: View {
     

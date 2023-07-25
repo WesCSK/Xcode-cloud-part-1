@@ -1,6 +1,0 @@
-framework module Pods_VoiceGuideTests {
-  umbrella header "Pods-VoiceGuideTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
