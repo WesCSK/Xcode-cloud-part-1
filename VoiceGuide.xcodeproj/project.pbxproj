@@ -14,6 +14,8 @@
 		206F2AB729F973580093935E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 206F2AB629F973580093935E /* Preview Assets.xcassets */; };
 		206F2ABF29F9746B0093935E /* SwiftRUI in Frameworks */ = {isa = PBXBuildFile; productRef = 206F2ABE29F9746B0093935E /* SwiftRUI */; };
 		206F2AC229F975C70093935E /* PlaySaveDownloadBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */; };
+		901E2E0A973F8113882EF36E /* Pods_VoiceGuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F9839442181B3634D6A5923 /* Pods_VoiceGuideTests.framework */; };
+		98C089C280C4B7C4C571B5CD /* Pods_VoiceGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A1FEA330CF67D8D907D28F /* Pods_VoiceGuide.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1469E9E31371028008B570A8 /* Pods-VoiceGuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceGuideTests.debug.xcconfig"; path = "Target Support Files/Pods-VoiceGuideTests/Pods-VoiceGuideTests.debug.xcconfig"; sourceTree = "<group>"; };
 		201824BD2A6557B800D06F10 /* VoiceGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		201824BF2A6557B800D06F10 /* VoiceGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceGuideTests.swift; sourceTree = "<group>"; };
 		206F2AAC29F973570093935E /* VoiceGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +39,11 @@
 		206F2AB629F973580093935E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySaveDownloadBar.swift; sourceTree = "<group>"; };
 		206F2AC329F97D730093935E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		78A1FEA330CF67D8D907D28F /* Pods_VoiceGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F21A90854AA0D95D37CE97F /* Pods-VoiceGuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceGuideTests.release.xcconfig"; path = "Target Support Files/Pods-VoiceGuideTests/Pods-VoiceGuideTests.release.xcconfig"; sourceTree = "<group>"; };
+		90D6EAC417E76408648A1F6A /* Pods-VoiceGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceGuide.release.xcconfig"; path = "Target Support Files/Pods-VoiceGuide/Pods-VoiceGuide.release.xcconfig"; sourceTree = "<group>"; };
+		9F9839442181B3634D6A5923 /* Pods_VoiceGuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceGuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C5EB9EFB29A577F723E8BF /* Pods-VoiceGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceGuide.debug.xcconfig"; path = "Target Support Files/Pods-VoiceGuide/Pods-VoiceGuide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901E2E0A973F8113882EF36E /* Pods_VoiceGuideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,12 +60,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				206F2ABF29F9746B0093935E /* SwiftRUI in Frameworks */,
+				98C089C280C4B7C4C571B5CD /* Pods_VoiceGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01A4CE307C7FAB86335D6614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A1FEA330CF67D8D907D28F /* Pods_VoiceGuide.framework */,
+				9F9839442181B3634D6A5923 /* Pods_VoiceGuideTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		103C9AF5A13EF598D928FEA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C5EB9EFB29A577F723E8BF /* Pods-VoiceGuide.debug.xcconfig */,
+				90D6EAC417E76408648A1F6A /* Pods-VoiceGuide.release.xcconfig */,
+				1469E9E31371028008B570A8 /* Pods-VoiceGuideTests.debug.xcconfig */,
+				7F21A90854AA0D95D37CE97F /* Pods-VoiceGuideTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		201824BE2A6557B800D06F10 /* VoiceGuideTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +102,8 @@
 				206F2AAE29F973570093935E /* VoiceGuide */,
 				201824BE2A6557B800D06F10 /* VoiceGuideTests */,
 				206F2AAD29F973570093935E /* Products */,
+				103C9AF5A13EF598D928FEA2 /* Pods */,
+				01A4CE307C7FAB86335D6614 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +152,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201824C52A6557B800D06F10 /* Build configuration list for PBXNativeTarget "VoiceGuideTests" */;
 			buildPhases = (
+				F7C655FB438029E0FC549E51 /* [CP] Check Pods Manifest.lock */,
 				201824B92A6557B800D06F10 /* Sources */,
 				201824BA2A6557B800D06F10 /* Frameworks */,
 				201824BB2A6557B800D06F10 /* Resources */,
@@ -137,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 206F2ABA29F973580093935E /* Build configuration list for PBXNativeTarget "VoiceGuide" */;
 			buildPhases = (
+				F8C38BECEA31ECB5B5724E67 /* [CP] Check Pods Manifest.lock */,
 				206F2AA829F973570093935E /* Sources */,
 				206F2AA929F973570093935E /* Frameworks */,
 				206F2AAA29F973570093935E /* Resources */,
+				32BA47CABD1E62C3467BB06F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,7 +218,7 @@
 			);
 			mainGroup = 206F2AA329F973570093935E;
 			packageReferences = (
-				206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI" */,
+				206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI.git" */,
 			);
 			productRefGroup = 206F2AAD29F973570093935E /* Products */;
 			projectDirPath = "";
@@ -212,6 +248,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32BA47CABD1E62C3467BB06F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceGuide/Pods-VoiceGuide-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceGuide/Pods-VoiceGuide-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceGuide/Pods-VoiceGuide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C655FB438029E0FC549E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceGuideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C38BECEA31ECB5B5724E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceGuide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		201824B92A6557B800D06F10 /* Sources */ = {
@@ -245,6 +345,7 @@
 /* Begin XCBuildConfiguration section */
 		201824C32A6557B800D06F10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1469E9E31371028008B570A8 /* Pods-VoiceGuideTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -263,6 +364,7 @@
 		};
 		201824C42A6557B800D06F10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F21A90854AA0D95D37CE97F /* Pods-VoiceGuideTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +497,7 @@
 		};
 		206F2ABB29F973580093935E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C5EB9EFB29A577F723E8BF /* Pods-VoiceGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -426,6 +529,7 @@
 		};
 		206F2ABC29F973580093935E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D6EAC417E76408648A1F6A /* Pods-VoiceGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,7 +592,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI" */ = {
+		206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Sweekwang/SwiftRUI.git";
 			requirement = {
@@ -501,7 +605,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		206F2ABE29F9746B0093935E /* SwiftRUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI" */;
+			package = 206F2ABD29F9746B0093935E /* XCRemoteSwiftPackageReference "SwiftRUI.git" */;
 			productName = SwiftRUI;
 		};
 /* End XCSwiftPackageProductDependency section */
