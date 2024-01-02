@@ -1,0 +1,20 @@
+#  What to Test
+
+1. Objective:
+Description: State the primary goal or objective of this test.
+
+2. Scope of Testing:
+In Scope: List the elements, features, or components that are included in this test.
+Out of Scope: Identify any elements, features, or components that are explicitly excluded from this test.
+
+3. Test Items:
+Feature/Component: Name the specific feature or component being tested.
+Version/Identifier: Specify the version number or unique identifier of the item being tested, if applicable.
+
+4. Test Criteria:
+Pass Criteria: Define the conditions that must be met for the test to be considered successful.
+Fail Criteria: Specify conditions that would result in the test being considered unsuccessful.
+
+5. Approval:
+Approved by: Name of the person who approves the test plan.
+Date: Date of approval.

@@ -23,6 +23,7 @@
 		206F2AB629F973580093935E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySaveDownloadBar.swift; sourceTree = "<group>"; };
 		206F2AC329F97D730093935E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20AE6BB92B44153300FCF295 /* WhatToTest.en.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = WhatToTest.en.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		206F2AA329F973570093935E = {
 			isa = PBXGroup;
 			children = (
+				20AE6BB72B4414EA00FCF295 /* TestFlight */,
 				206F2AAE29F973570093935E /* VoiceGuide */,
 				206F2AAD29F973570093935E /* Products */,
 			);
@@ -80,6 +82,14 @@
 				206F2AC129F975C70093935E /* PlaySaveDownloadBar.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		20AE6BB72B4414EA00FCF295 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				20AE6BB92B44153300FCF295 /* WhatToTest.en.txt */,
+			);
+			path = TestFlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
